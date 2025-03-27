@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    font-family: "Garamond", sans-serif;
+    background-color: #e5e4ec;
+    background-image: url(../images/purple8.png);
+    margin: 0%;
+    height: 100vh; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-size: cover;
+}
+.titulo{
+    font-size: 30px;
+    color: #ffffff;
+    text-shadow: 1px 3px 2px rgb(84, 4, 212);
+}
+.toDoList{
+    background-color: rgb(199, 132, 238);
+    height: 500px;
+    width: 500px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-image: url(../images/purple6.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 2px 9px rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.767);
+}
+.campo-texto {
+    display: flex;
+    margin-left: 130px;
+    height: 30px; 
+    position: absolute;
+}
+#texto{
+    width: 170px;
+    display: flex;
+    padding: 16px;
+    border: none;
+    box-shadow: 1px 2px 2px rgb(180, 153, 243);
+    border-radius: 3px;
+}
+.campo-botao {
+    margin-left: 210px;
+    position: absolute;
+    margin-top: 1px;
+}
+#btn{
+    padding: 7px;
+    width: 32px;
+    border-color: #e5e4ec;
+    color: #e5e4ec;
+    background-color: #6941c7;
+    cursor: pointer;
+}
+.campo-lista {
+   margin-top: 30px;
+   display: flex;
+   margin-left: 17px;
+   position: absolute;
+   font-size: 25px;
+}
+ul {
+    margin-left: -50px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    border: 1px solid #6941c7;;
+    box-shadow: 1px 2px 2px #6941c7;
+    width: 280px;
+    padding: 20px; 
+    border-radius: 2px;
+    position: fixed;
+    font-size: 22px;
+    font-family: "EB Garamond", serif;
+}
+li {
+    list-style-type: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: auto;
+    margin-bottom: 6px;
+    text-align: start;
+    color: #000000;
+    letter-spacing: 1px
+}
+.remove-button{
+    margin-left: 270px;
+    display: flex;
+    position: absolute;
+    padding: 9px;
+    background-image: url(../images/cesto-de-lixo.png);
+    background-size: cover;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+    margin-top: -23px;
+    background-color: #ffffff; 
+    border-radius: 3px;
+} 
+.remove-button:hover{
+    background-color: #c4a5e0; 
+} 
+.check{ 
+    margin-left: 246px;
+    display: flex;
+    margin-top: -20px;
+    cursor: pointer;
+    position: absolute;
+    box-shadow: 1px 1px 3px #6941c7;
+}
